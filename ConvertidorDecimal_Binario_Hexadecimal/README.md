@@ -1,6 +1,6 @@
 # 🔢 Convertidor Decimal, Binario y Hexadecimal Aleatorio
 
-La aplicación demuestra el uso de estados dinámicos, control de flujos y operaciones lógicas de conversión numérica utilizando **Kotlin** y **Jetpack Compose**.
+La aplicación muestra el uso de estados dinámicos, control de flujos y operaciones lógicas de conversión numérica utilizando **Kotlin** y **Jetpack Compose**.
 
 ---
 
