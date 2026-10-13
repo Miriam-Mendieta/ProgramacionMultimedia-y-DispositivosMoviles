@@ -41,5 +41,4 @@ Para cumplir con los requisitos del diseño, se ha asignado una paleta de colore
 ---
 
 
-👩‍💻 **Desarrollado por:** Miriam Mendieta
-📅 **Curso:** PMDM 2026/2027
+👩‍💻 **Desarrollado por:** Miriam Mendieta.- | PMDM 2026/2027
