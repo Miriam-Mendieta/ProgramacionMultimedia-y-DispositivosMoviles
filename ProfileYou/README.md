@@ -13,6 +13,9 @@ Pantalla de perfil creada en Android Studio utilizando **Jetpack Compose** y los
 ## 📌 Descripción del ejercicio
 El objetivo del proyecto **ProfileYou** es diseñar una pantalla que represente el perfil de usuario de una red social.  
 La interfaz incluye elementos interactivos y componentes básicos de Compose.
+<p align="center">
+  <img width="261" height="528" alt="ProfileYou" src="https://github.com/user-attachments/assets/da16217f-e14c-424b-ba11-f7182f2a0509" />
+</p>
 
 ---
 
@@ -44,7 +47,7 @@ Todos los elementos interactivos usan estados locales con `remember`.
 ---
 
 ## 🛠️ Estructura del proyecto
-
+```bash
 ProfileYou/
 │
 ├── app/
@@ -61,7 +64,7 @@ ProfileYou/
 │   │   │   │   │   ├── colors.xml
 │   │   │   │   │   ├── themes.xml
 │   │   │   │   │   ├── strings.xml
-
+```
 ## 📚 Objetivo educativo
 Este ejercicio permite practicar:
 
@@ -70,3 +73,10 @@ Este ejercicio permite practicar:
 - Uso de componentes básicos  
 - Reutilización de funciones composables  
 - Organización de proyecto en Android Studio
+
+  <br>
+<p align="center">
+  👩‍💻 Autora <br>
+  <strong>Miriam Mendieta</strong><br>
+  PMDM 2026/2027
+</p>
