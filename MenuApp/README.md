@@ -1,4 +1,9 @@
-# MenuApp — Colección de mini‑apps en Jetpack Compose
+<h1>MenuApp: Colección de apps en Jetpack Compose</h1>
+
+<p align="center">
+  <img width="123" height="258" alt="MenuApps" src="https://github.com/user-attachments/assets/12f3ce66-6fda-4302-8970-1adb2786b241" />
+</p>
+
 
 MenuApp es una aplicación desarrollada en **Kotlin + Jetpack Compose** que reúne varias mini‑apps en un solo menú principal. Cada módulo está aislado, organizado y accesible desde una pantalla inicial sencilla y clara.
 
@@ -12,7 +17,10 @@ Herramienta de conversión entre **decimal ↔ binario** con:
 - Indicadores visuales con fondo gris/morado según estado
 - Validación básica del número introducido
 - Interfaz minimalista y clara
+<p align="center">
+  <img width="123" height="258" alt="convertir" src="https://github.com/user-attachments/assets/145371db-a5da-42b0-97f4-30522fab119a" />
 
+</p>
 ---
 
 ### 👤 ProfileYou
@@ -20,14 +28,20 @@ Mini‑app de perfil personal:
 - Datos básicos del usuario
 - Diseño simple y directo
 - Preparada para ampliarse con más campos
+<p align="center">
+  <img width="123" height="258" alt="ProfileYou" src="https://github.com/user-attachments/assets/64ecf422-2135-439c-bbce-b35c42d5cada" />
 
+</p>
 ---
 
 ### 📝 Registro
 Pantalla de registro básica:
 - Campos de entrada
 - Validación mínima
+<p align="center">
+  <img width="123" height="258" alt="registro" src="https://github.com/user-attachments/assets/a2248d5e-07c5-4b80-be09-19868bfaa28c" />
 
+</p>
 ---
 
 
@@ -178,7 +192,7 @@ MenuApp sirve como **proyecto de práctica** para aprender y dominar:
 <br>
 <p align="center">
   👩‍💻 Autora <br>
-  <strong>Miriam Mendieta</strong><br>
-  PMDM 2026/2027
+  <strong>Miriam Mendieta.-</strong><br>
+  octubre, 2026
 </p>
 
