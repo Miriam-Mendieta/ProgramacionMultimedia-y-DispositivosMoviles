@@ -19,9 +19,7 @@ Herramienta de conversión entre **decimal ↔ binario** con:
 - Interfaz minimalista y clara
 <p align="center">
   <img width="123" height="258" alt="convertir" src="https://github.com/user-attachments/assets/145371db-a5da-42b0-97f4-30522fab119a" />
-
 </p>
----
 
 ### 👤 ProfileYou
 Mini‑app de perfil personal:
@@ -30,9 +28,7 @@ Mini‑app de perfil personal:
 - Preparada para ampliarse con más campos
 <p align="center">
   <img width="123" height="258" alt="ProfileYou" src="https://github.com/user-attachments/assets/64ecf422-2135-439c-bbce-b35c42d5cada" />
-
 </p>
----
 
 ### 📝 Registro
 Pantalla de registro básica:
@@ -40,10 +36,7 @@ Pantalla de registro básica:
 - Validación mínima
 <p align="center">
   <img width="123" height="258" alt="registro" src="https://github.com/user-attachments/assets/a2248d5e-07c5-4b80-be09-19868bfaa28c" />
-
 </p>
----
-
 
 ## 🧭 Navegación
 La pantalla principal **MenuScreen** muestra botones para acceder a cada mini‑app:
