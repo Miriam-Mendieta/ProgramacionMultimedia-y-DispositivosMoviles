@@ -1,4 +1,4 @@
-# 📱 MenuApp — Colección de mini‑apps en Jetpack Compose
+# MenuApp — Colección de mini‑apps en Jetpack Compose
 
 MenuApp es una aplicación desarrollada en **Kotlin + Jetpack Compose** que reúne varias mini‑apps en un solo menú principal. Cada módulo está aislado, organizado y accesible desde una pantalla inicial sencilla y clara.
 
@@ -27,17 +27,9 @@ Mini‑app de perfil personal:
 Pantalla de registro básica:
 - Campos de entrada
 - Validación mínima
-- Estructura lista para conectar con backend
 
 ---
 
-### 📄 Master/Detail
-Ejemplo de navegación tipo **lista → detalle**:
-- Lista de elementos
-- Pantalla de detalle individual
-- Arquitectura simple para aprender patrones de Compose
-
----
 
 ## 🧭 Navegación
 La pantalla principal **MenuScreen** muestra botones para acceder a cada mini‑app:
@@ -45,7 +37,6 @@ La pantalla principal **MenuScreen** muestra botones para acceder a cada mini‑
 - ProfileYou  
 - ConverterV2Miriam  
 - Registro  
-- Master/Detail  
 
 Cada módulo está aislado en su propio paquete para mantener el proyecto ordenado.
 
@@ -56,9 +47,138 @@ Cada módulo está aislado en su propio paquete para mantener el proyecto ordena
 - **Kotlin**
 - **Jetpack Compose**
 - **Material 3**
-- **State Hoisting**
 - **Navegación básica por Composables**
 
 ---
 
 ## 📂 Estructura del proyecto
+
+```bash
+MenuApp/
+│   .gitignore
+│   MainActivity.kt
+│
+├── core/
+│   ├── AppNavigation.kt
+│   └── Routes.kt
+│
+└── ui/
+├── components/
+│   └── MenuButton.kt
+│
+├── features/
+│   ├── MenuScreen.kt
+│   │
+│   ├── converterv2miriam/
+│   │   ├── components/
+│   │   │   ├── AppTextField.kt
+│   │   │   ├── CabeceraUsuario.kt
+│   │   │   ├── ConversionModeSwitch.kt
+│   │   │   ├── LabelText.kt
+│   │   │   ├── ModeTextBox.kt
+│   │   │   └── PrimaryButton.kt
+│   │   │
+│   │   ├── screens/
+│   │   │   └── ConvertScreen.kt
+│   │   │
+│   │   └── utils/
+│   │       └── convertirNumero.kt
+│   │
+│   ├── profileyou/
+│   │   ├── components/
+│   │   │   ├── Hobbies.kt
+│   │   │   └── images.kt
+│   │   │
+│   │   └── screens/
+│   │       └── ProfileYouScreen.kt
+│   │
+│   └── registro/
+│       ├── components/
+│       │   ├── ApellidoField.kt
+│       │   ├── BotonesRegistro.kt
+│       │   ├── Cabecera.kt
+│       │   ├── EmailField.kt
+│       │   ├── FavoritosChips.kt
+│       │   ├── FechaNacimientoField.kt
+│       │   ├── NombreField.kt
+│       │   ├── PiePagina.kt
+│       │   └── TelefonoField.kt
+│       │
+│       ├── screens/
+│       │   ├── RegistrationValidation.kt
+│       │   └── RegistroScreen.kt
+│       │
+│       └── utils/
+│           ├── RegistroLogic.kt
+│           └── ValidadorRegistro.kt
+│
+└── theme/
+├── Color.kt
+├── Theme.kt
+└── Type.kt
+
+```
+## 🎯 Objetivo del proyecto
+
+MenuApp sirve como **proyecto de práctica** para aprender y dominar:
+
+- Jetpack Compose
+- Componentes básicos
+- Navegación
+- Gestión de estado
+- Diseño modular
+
+---
+## 📚 Bibliografía y recursos
+
+### ✨ Recurso Destacado
+- Video : De CERO a Experto en Desarrollo Android: Aprende Kotlin, Jetpack Compose y Más
+  https://www.youtube.com/watch?v=i1PNVWd_dTY&t=30805s
+  #Programación by AristiDevs
+
+### 🟣 Jetpack Compose
+- Documentación oficial de Jetpack Compose  
+  https://developer.android.com/jetpack/compose  
+- Guía de Material Design 3 para Compose  
+  https://developer.android.com/jetpack/compose/designsystems/material3  
+- Tutoriales básicos de Compose  
+  https://developer.android.com/jetpack/compose/tutorial  
+- Catálogo de componentes Material 3  
+  https://m3.material.io/components
+
+### 🟡 Kotlin
+- Documentación oficial de Kotlin  
+  https://kotlinlang.org/docs/home.html  
+- Guía de Kotlin para Android  
+  https://developer.android.com/kotlin  
+- Kotlin Playground (para probar código online)  
+  https://play.kotlinlang.org/
+
+### 🔵 Arquitectura y buenas prácticas
+- Guía oficial de arquitectura Android  
+  https://developer.android.com/topic/architecture  
+- State Hoisting en Compose  
+  https://developer.android.com/jetpack/compose/state  
+- Navegación en Jetpack Compose  
+  https://developer.android.com/jetpack/compose/navigation
+
+### 🟢 Recursos de aprendizaje
+- Curso oficial de Android con Compose  
+ https://developer.android.com/courses/android-basics-compose/course  
+- Codelabs de Jetpack Compose  
+  https://developer.android.com/codelabs  
+- Ejemplos oficiales de Compose  
+  https://github.com/android/compose-samples
+  
+---
+
+## 📄 Licencia 
+  Este proyecto se distribuye bajo licencia MIT.
+  
+<br>
+<p align="center">
+  👩‍💻 Autora <br>
+  <strong>Miriam Mendieta</strong><br>
+  PMDM 2026/2027
+</p>
+
